@@ -35,7 +35,14 @@ namespace Test
 
         private void OnGUI()
         {
-            if (GUI.Button(new Rect(10, 10, 200, 50), "Start MPA") && _puzzlePlayable != null)
+            if (_puzzlePlayable == null)
+            {
+                return;
+            }
+
+            bool canPlay = _puzzlePlayable.state != PlayState.Playing;
+            string buttonLabel = canPlay ? "Start MPA" : "MPA Playing...";
+            if (GUI.Button(new Rect(10, 10, 200, 50), buttonLabel) && canPlay)
             {
                 _puzzlePlayable.time = 0;
                 _puzzlePlayable.Play();
