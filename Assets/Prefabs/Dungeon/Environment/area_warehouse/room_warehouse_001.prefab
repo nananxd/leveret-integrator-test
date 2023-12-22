@@ -1094,6 +1094,10 @@ PrefabInstance:
       propertyPath: autoRandomSeed
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5954722531739429643, guid: 297e6126777b24940bdff30c89b02b11, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2365882408567739151}
     - target: {fileID: 7008049877494133149, guid: 297e6126777b24940bdff30c89b02b11, type: 3}
       propertyPath: m_SceneBindings.Array.data[3].value
       value: 
