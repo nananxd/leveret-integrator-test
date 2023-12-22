@@ -53,6 +53,10 @@ PlayableDirector:
     value: {fileID: 2249902776446176749}
   - key: {fileID: -552883535124653450, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
     value: {fileID: 1618375865873631159}
+  - key: {fileID: 6572354299024658702, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    value: {fileID: 0}
+  - key: {fileID: -3296562324723795155, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    value: {fileID: 5210618147165029862}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &4629883844652935878
@@ -101,6 +105,18 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 24c1f8fea475abb42af4f5024d08cbc3, type: 2}
+    - target: {fileID: 3801217672715866435, guid: db9dfcd7e1f1846ec96fb0a4d89be4aa, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 3801217672715866449, guid: db9dfcd7e1f1846ec96fb0a4d89be4aa, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3801217672715866463, guid: db9dfcd7e1f1846ec96fb0a4d89be4aa, type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8503126180014504624, guid: db9dfcd7e1f1846ec96fb0a4d89be4aa, type: 3}
       propertyPath: m_Name
       value: unitychan_npc
@@ -294,6 +310,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
+--- !u!1 &5210618147165029862 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
+  m_PrefabInstance: {fileID: 5210618147164930882}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6916719281395926166
 PrefabInstance:
   m_ObjectHideFlags: 0
