@@ -42,7 +42,7 @@ PlayableDirector:
   m_Enabled: 1
   serializedVersion: 3
   m_PlayableAsset: {fileID: 11400000, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
-  m_InitialState: 0
+  m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
@@ -67,7 +67,11 @@ PlayableDirector:
     value: {fileID: 4969691047044685901}
   m_ExposedReferences:
     m_References:
+    - 428863ce2db90f24980fa979d0b210ed: {fileID: 6403371531842137586}
+    - c0c10900ec972754a905e5c744f81516: {fileID: 6403371531842137586}
+    - 73f55115227cfe84883eb85e83fd6c80: {fileID: 6403371531842137586}
     - ac64b5667716b224298cc906d410e59f: {fileID: 1157215106261231536}
+    - 98d5e601672a4954499de6f8e51c9cbd: {fileID: 6403371531842137586}
     - 32dab33795426764ca9994f559d8a930: {fileID: 3631782080033695640}
     - b27e01f889d34c840905fdaf3431cba6: {fileID: 3979910788386866708}
     - e7e0bbb3fa6de7449aa5783be0c0a9c3: {fileID: 4014232213531827489}
@@ -1618,7 +1622,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
       propertyPath: m_RootOrder
@@ -1630,7 +1634,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.758
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2157,6 +2161,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 03a4a1935a9f4454c861dfa0aa6df562, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 19800000, guid: 03a4a1935a9f4454c861dfa0aa6df562, type: 3}
       propertyPath: looping
       value: 0
@@ -2252,6 +2260,11 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
+--- !u!1 &6403371531842137586 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 03a4a1935a9f4454c861dfa0aa6df562, type: 3}
+  m_PrefabInstance: {fileID: 6403371531842169682}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6691854455810752118
 PrefabInstance:
   m_ObjectHideFlags: 0
