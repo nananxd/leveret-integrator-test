@@ -70,6 +70,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5018584453838820624}
     m_Modifications:
+    - target: {fileID: 2301523307771588335, guid: 1dafc5251a036cd4b9c253fe37b41981, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4f3877fe8ac164946a71f58d18955abf, type: 2}
     - target: {fileID: 5125656406992859526, guid: 1dafc5251a036cd4b9c253fe37b41981, type: 3}
       propertyPath: m_Name
       value: FpsArm2
