@@ -1266,6 +1266,10 @@ PrefabInstance:
       propertyPath: m_Lightmapping
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 7311183227759916882, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85dfab9623c67784fa7894de63cd1604, type: 3}
 --- !u!4 &6234156206687484468 stripped
@@ -1520,6 +1524,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
   m_PrefabInstance: {fileID: 6236170842928535358}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6236170842928501146 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: f9ced3e4ec992084991548235fef4f8e, type: 3}
+  m_PrefabInstance: {fileID: 6236170842928535358}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6236170842996818755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1639,6 +1648,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6236170843039928956}
     m_Modifications:
+    - target: {fileID: 4115557156195657058, guid: 8891c39453c66cd498e54ab57a04efdb, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 2365882408567739151}
+    - target: {fileID: 4678563087115088399, guid: 8891c39453c66cd498e54ab57a04efdb, type: 3}
+      propertyPath: m_SceneBindings.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678563087115088399, guid: 8891c39453c66cd498e54ab57a04efdb, type: 3}
+      propertyPath: m_SceneBindings.Array.data[10].key
+      value: 
+      objectReference: {fileID: 390744747573618458, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    - target: {fileID: 4678563087115088399, guid: 8891c39453c66cd498e54ab57a04efdb, type: 3}
+      propertyPath: m_SceneBindings.Array.data[11].key
+      value: 
+      objectReference: {fileID: 979267669170840773, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    - target: {fileID: 4678563087115088399, guid: 8891c39453c66cd498e54ab57a04efdb, type: 3}
+      propertyPath: m_SceneBindings.Array.data[12].key
+      value: 
+      objectReference: {fileID: -2271527987682606069, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    - target: {fileID: 4678563087115088399, guid: 8891c39453c66cd498e54ab57a04efdb, type: 3}
+      propertyPath: m_SceneBindings.Array.data[13].key
+      value: 
+      objectReference: {fileID: -7060156815686250363, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    - target: {fileID: 4678563087115088399, guid: 8891c39453c66cd498e54ab57a04efdb, type: 3}
+      propertyPath: m_SceneBindings.Array.data[14].key
+      value: 
+      objectReference: {fileID: 1487222966708928703, guid: b9ea97bda9aae45189817d9e7bace613, type: 2}
+    - target: {fileID: 4678563087115088399, guid: 8891c39453c66cd498e54ab57a04efdb, type: 3}
+      propertyPath: m_SceneBindings.Array.data[4].value
+      value: 
+      objectReference: {fileID: 6236170842928501146}
     - target: {fileID: 6075444455689288503, guid: 8891c39453c66cd498e54ab57a04efdb, type: 3}
       propertyPath: m_Name
       value: A1_P1_ShootingRange
