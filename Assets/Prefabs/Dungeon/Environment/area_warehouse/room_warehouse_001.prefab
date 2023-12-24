@@ -665,7 +665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd3c33ea333f74795805c6a1e064c6db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Puzzle: {fileID: 0}
+  Puzzle: {fileID: 3641292524291644835}
 --- !u!1 &6236170843061057379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,5 +1733,10 @@ PrefabInstance:
 --- !u!4 &358206907518237130 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7070848785479278430, guid: 8891c39453c66cd498e54ab57a04efdb, type: 3}
+  m_PrefabInstance: {fileID: 7410718031401821844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3641292524291644835 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6075444455689288503, guid: 8891c39453c66cd498e54ab57a04efdb, type: 3}
   m_PrefabInstance: {fileID: 7410718031401821844}
   m_PrefabAsset: {fileID: 0}
