@@ -1,5 +1,6 @@
 // Copyright (c) 2023 Limit Break Inc. All rights reserved
 
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Playables;
 
@@ -9,6 +10,8 @@ namespace Test
     {
         [SerializeField]
         private GameObject Puzzle;
+
+        [SerializeField] private IdlePlayer idlePlayer;
 
         private PlayableDirector _puzzlePlayable;
 
@@ -46,7 +49,19 @@ namespace Test
             {
                 _puzzlePlayable.time = 0;
                 _puzzlePlayable.Play();
+                if (this.idlePlayer != null)
+                {
+                    this.idlePlayer.ReturnToDefaultIdle();
+                    StartCoroutine(WaitForPlayableToEnd());
+                }
             }
+        }
+
+        private IEnumerator WaitForPlayableToEnd()
+        {
+            yield return null;
+            yield return new WaitUntil(() => { return this._puzzlePlayable.state != PlayState.Playing; });
+            this.idlePlayer.TryPlayRandomIdle();
         }
     }
 }
