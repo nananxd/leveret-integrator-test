@@ -198,6 +198,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2922202648182127067, guid: d4629fe80684541289f5251ea9990873, type: 3}
+      propertyPath: changeIdleAnimationRange.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2922202648182127067, guid: d4629fe80684541289f5251ea9990873, type: 3}
+      propertyPath: changeIdleAnimationRange.y
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6236170843039928955, guid: d4629fe80684541289f5251ea9990873, type: 3}
       propertyPath: m_Name
       value: room_warehouse_001
